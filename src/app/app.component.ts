@@ -32,23 +32,15 @@ export class AppComponent {
     
     this.initParticles();
 
-    this.speechService.OnError().subscribe(error=>{
-      console.log("Error on speech-to-text translation ", error);
-    });
-
-    this.speechService.OnEnd().subscribe(flag=>{
-        this.isListening = false;
-    });
-
     this.textList = [];
   }
 
   initParticles(){
     //const {particlesJS} : IParticles = (window as any) as IParticles;
 
-    particlesJS.load('particles-js', './particles.json', function() {
-      console.log('callback - particles.js config loaded');
-    });
+    // particlesJS.load('particles-js', './particles.json', function() {
+    //   console.log('callback - particles.js config loaded');
+    // });
   }
 
   mdnListen(){
