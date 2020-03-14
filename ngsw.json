@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584181513952,
+  "timestamp": 1584181984158,
   "index": "https://amanwarlock.github.io/angularspeech/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://amanwarlock.github.io/angularspeech/favicon.ico",
         "https://amanwarlock.github.io/angularspeech/index.html",
-        "https://amanwarlock.github.io/angularspeech/main-es2015.bfdbba8e9e8cfd5c7069.js",
-        "https://amanwarlock.github.io/angularspeech/main-es5.bfdbba8e9e8cfd5c7069.js",
+        "https://amanwarlock.github.io/angularspeech/main-es2015.8a2cce2fc0f9ebbd8aff.js",
+        "https://amanwarlock.github.io/angularspeech/main-es5.8a2cce2fc0f9ebbd8aff.js",
         "https://amanwarlock.github.io/angularspeech/manifest.webmanifest",
         "https://amanwarlock.github.io/angularspeech/polyfills-es2015.442fa3cc45520cc0d518.js",
         "https://amanwarlock.github.io/angularspeech/polyfills-es5.fd3af48698f9b02947d9.js",
@@ -93,9 +93,9 @@
     "https://amanwarlock.github.io/angularspeech/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
     "https://amanwarlock.github.io/angularspeech/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "https://amanwarlock.github.io/angularspeech/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "https://amanwarlock.github.io/angularspeech/index.html": "ba8772401470aaeb69ebc3c9640f1e510b8db68b",
-    "https://amanwarlock.github.io/angularspeech/main-es2015.bfdbba8e9e8cfd5c7069.js": "c63ad52c9aefed3901696e293904cc5cc5435de7",
-    "https://amanwarlock.github.io/angularspeech/main-es5.bfdbba8e9e8cfd5c7069.js": "ca7bc52e9db4c3251d1cc0d91bcc29ff69f4e8db",
+    "https://amanwarlock.github.io/angularspeech/index.html": "81a8fc1bee47c407c834813126ef6b4289a5b294",
+    "https://amanwarlock.github.io/angularspeech/main-es2015.8a2cce2fc0f9ebbd8aff.js": "5011d8ded7a71ff249f604314a319c268a1a9c06",
+    "https://amanwarlock.github.io/angularspeech/main-es5.8a2cce2fc0f9ebbd8aff.js": "e817704233aa7d59b1e231f0da51bcb776cdefe1",
     "https://amanwarlock.github.io/angularspeech/manifest.webmanifest": "ca2e04eb8914a74e04adbc222af4c4f417f01bd5",
     "https://amanwarlock.github.io/angularspeech/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "https://amanwarlock.github.io/angularspeech/polyfills-es5.fd3af48698f9b02947d9.js": "29c3dfd16faa921dd49165f318f9eed12a2f3be7",
