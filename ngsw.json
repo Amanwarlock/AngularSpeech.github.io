@@ -1,0 +1,94 @@
+{
+  "configVersion": 1,
+  "timestamp": 1584170656975,
+  "index": "https://Amanwarlock.gitbub.io/angularspeech/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://Amanwarlock.gitbub.io/angularspeech/favicon.ico",
+        "https://Amanwarlock.gitbub.io/angularspeech/index.html",
+        "https://Amanwarlock.gitbub.io/angularspeech/main-es2015.0520b2f43a63d08e5a0c.js",
+        "https://Amanwarlock.gitbub.io/angularspeech/main-es5.0520b2f43a63d08e5a0c.js",
+        "https://Amanwarlock.gitbub.io/angularspeech/manifest.webmanifest",
+        "https://Amanwarlock.gitbub.io/angularspeech/polyfills-es2015.442fa3cc45520cc0d518.js",
+        "https://Amanwarlock.gitbub.io/angularspeech/polyfills-es5.fd3af48698f9b02947d9.js",
+        "https://Amanwarlock.gitbub.io/angularspeech/runtime-es2015.0811dcefd377500b5b1a.js",
+        "https://Amanwarlock.gitbub.io/angularspeech/runtime-es5.0811dcefd377500b5b1a.js",
+        "https://Amanwarlock.gitbub.io/angularspeech/styles.6176267379f98ea519ed.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-128x128.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-144x144.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-152x152.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-192x192.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-384x384.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-512x512.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-72x72.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-96x96.png",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/voice.svg",
+        "https://Amanwarlock.gitbub.io/angularspeech/assets/voice.svg",
+        "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/icons/voice.svg": "099c233a83ec53c6b717a9f9b01beedb571f458e",
+    "https://Amanwarlock.gitbub.io/angularspeech/assets/voice.svg": "099c233a83ec53c6b717a9f9b01beedb571f458e",
+    "https://Amanwarlock.gitbub.io/angularspeech/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "https://Amanwarlock.gitbub.io/angularspeech/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "https://Amanwarlock.gitbub.io/angularspeech/index.html": "e6e68055292a98337be819a021997cdcfefba3c8",
+    "https://Amanwarlock.gitbub.io/angularspeech/main-es2015.0520b2f43a63d08e5a0c.js": "4d3c4e8512ecd597871b4194d1f03372e347c88a",
+    "https://Amanwarlock.gitbub.io/angularspeech/main-es5.0520b2f43a63d08e5a0c.js": "54d36479fb042e8da0c90ff8bc263ae9bee4a1b2",
+    "https://Amanwarlock.gitbub.io/angularspeech/manifest.webmanifest": "ca2e04eb8914a74e04adbc222af4c4f417f01bd5",
+    "https://Amanwarlock.gitbub.io/angularspeech/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "https://Amanwarlock.gitbub.io/angularspeech/polyfills-es5.fd3af48698f9b02947d9.js": "29c3dfd16faa921dd49165f318f9eed12a2f3be7",
+    "https://Amanwarlock.gitbub.io/angularspeech/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://Amanwarlock.gitbub.io/angularspeech/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://Amanwarlock.gitbub.io/angularspeech/styles.6176267379f98ea519ed.css": "56e71edf759af9634e0c1936c3e97a70dae28950"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
