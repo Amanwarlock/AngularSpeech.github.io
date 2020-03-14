@@ -1,10 +1,11 @@
 import { Component, ChangeDetectorRef } from '@angular/core';
 import { MdnSpeechService } from './services/mdn-speech.service';
 
-export interface IWindow extends Window {
-  webkitSpeechRecognition: any;
+export interface IParticles extends Window {
+  particlesJS: any;
 }
 
+declare var particlesJS: any;
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,9 @@ export interface IWindow extends Window {
 })
 export class AppComponent {
 
-  title = 'speechNg';
+  title = 'Speech Translator';
+
+  logo = 'fas fa-brain'; //<i class="fas fa-bullhorn"></i>
   
   translation = "Try speaking ...";
 
@@ -26,7 +29,9 @@ export class AppComponent {
   }
 
   ngOnInit(){
-      
+    
+    this.initParticles();
+
     this.speechService.OnError().subscribe(error=>{
       console.log("Error on speech-to-text translation ", error);
     });
@@ -36,6 +41,14 @@ export class AppComponent {
     });
 
     this.textList = [];
+  }
+
+  initParticles(){
+    //const {particlesJS} : IParticles = (window as any) as IParticles;
+
+    particlesJS.load('particles-js', './particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
   }
 
   mdnListen(){
@@ -59,4 +72,14 @@ export class AppComponent {
       this.changeDetector.detectChanges();
     });
   }
+
+  clear(){
+    this.textList = [];
+  }
+
+  deleteNote(index){
+    this.textList.splice(index,1);
+    this.changeDetector.detectChanges();
+  }
+
 }

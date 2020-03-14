@@ -27,6 +27,7 @@
     "animate.css": "^3.7.2",
     "eva-icons": "^1.1.2",
     "font-awesome": "^4.7.0",
+    "particles.js": "^2.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

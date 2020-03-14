@@ -2,22 +2,30 @@
 
   <nb-layout-header fixed class="header">
   <!-- Insert header here -->
-  <h4>Speech Demo</h4>
+  <span class="logo-section"><i class="app-logo {{logo}}"></i></span>
+  <h5>{{title}}</h5>
   </nb-layout-header>
 
   <nb-layout-column>
+    <div id="particles-js"></div>
     <div class="main">
       <nb-card>
+        <button nbButton shape="round" size="small" status="danger" (click)="clear()" class="clear-btn">
+          <i class="fas fa-times"></i>
+         </button>
         <nb-card-body>
           {{translation}} 
           <nb-list>
-            <nb-list-item *ngFor="let msg of textList">
-              {{ msg }}
+            <nb-list-item *ngFor="let msg of textList;let i = index">
+              <i class="fas fa-hand-point-right"></i>&nbsp;&nbsp;{{ msg }}
+              <button nbButton shape="round" size="small" status="danger" (click)="deleteNote(i)" class="clear-note-btn" >
+                <i class="fas fa-trash"></i>
+               </button>
             </nb-list-item>
           </nb-list>
         </nb-card-body>
-        <button nbButton shape="round" size="small" status="danger" (click)="mdnListen()" class="voice" [ngClass]="{'listening' : isListening}">
-          <img src="../assets/icons/voice.svg" class="animated bounceIn">
+        <button nbButton shape="round" size="small" status="danger" (click)="mdnListen()" class="voice" [ngClass]="{'pulse' : isListening}">
+         <i class="fas fa-microphone-alt animated bounceIn" [ngClass]="{'listening' : isListening}"></i>
         </button>
       </nb-card>
     </div>
@@ -25,7 +33,7 @@
   </nb-layout-column>
 
   <nb-layout-footer fixed>
-  <!-- Insert footer here -->
+    <i class="far fa-copyright"></i> &nbsp;&nbsp; Aman Kareem
   </nb-layout-footer>
 
 </nb-layout>
